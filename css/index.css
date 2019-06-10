@@ -198,13 +198,13 @@ header a{
 }
 .search .txtCity{
     width: 150px;
-    background-image: url("../images/input1.png");
+    background-image: url("https://raw.githubusercontent.com/wqqmm/qiqi/gh-pages/images/input1.png");
     background-position: 5px 3px;
     position: relative;
 }
 .search .checkin{
     width: 130px;
-    background-image: url("../images/input2.png");
+    background-image: url("https://raw.githubusercontent.com/wqqmm/qiqi/gh-pages/images/input2.png");
     border: none;
 }
 .search .checkout{
@@ -214,7 +214,7 @@ header a{
 .search .guestNum{
     border: none;
     width: 140px;
-    background-image: url("../images/input3.png");
+    background-image: url("https://raw.githubusercontent.com/wqqmm/qiqi/gh-pages/images/input3.png");
     border-right: 1px solid #ccc;
 }
 .search .txtKeyword{
@@ -227,7 +227,7 @@ header a{
     width: 125px;
     height: 50px;
     background-color: #ff5459;
-    background-image: url("../images/input4.png");
+    background-image: url("https://raw.githubusercontent.com/wqqmm/qiqi/gh-pages/images/input4.png");
     background-position: 35px 0;
     position: absolute;
     right: 0;
@@ -315,12 +315,12 @@ section .slidet-left,section .slide-right{
     cursor: pointer;
 }
 section .slidet-left{
-    background: url("../images/left.png");
+    background: url("https://raw.githubusercontent.com/wqqmm/qiqi/gh-pages/images/left.png");
     left: -45px;
     display: none;
 }
 section .slide-right{
-    background: url("../images/right.png");
+    background: url("https://raw.githubusercontent.com/wqqmm/qiqi/gh-pages/images/right.png");
     left: 1160px;
 }
 .zzk_product_box3 .slide-right,.zzk_product_box3 .slidet-left{
@@ -523,7 +523,7 @@ footer{
     display: block;
     width: 127px;
     height: 86px;
-    background:url("../images/cebian3.png") no-repeat;
+    background:url("https://raw.githubusercontent.com/wqqmm/qiqi/gh-pages/images/cebian3.png") no-repeat;
     position: fixed;
     bottom: 80px;
     left: 0;
