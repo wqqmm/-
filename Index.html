@@ -1,0 +1,662 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta content="text/html; charset=UTF-8" />
+    <title>汪琪琪</title>
+    <meta name="keywords" content="HTML,CSS,前端,汪琪琪" />
+    <meta name="description" content="汪琪琪，自制自在客主页" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/schedule.css" />
+</head>
+<body>
+<!--顶部通栏-->
+<header class="clearFix " id="back">
+    <div class="nav f_left clearFix">
+        <img class="logo" src="images/logohomepage.png"/>
+        <div class="place">
+            <span>民宿</span>
+            <ul class="nation">
+                <li><a href="#">台湾</a></li>
+                <li><a href="#">日本</a></li>
+                <li><a href="#">大陆</a></li>
+                <li><a href="#">韩国</a></li>
+                <li><a href="#">泰国</a></li>
+            </ul>
+        </div>
+        <a href="#" class="story">故事</a>
+        <img class="slogan" src="images/slogan.png"/>
+    </div>
+
+    <div class="nav f_right">
+        <ul class="clearFix function">
+            <li class="phone">
+                <a href="#"><img src="images/gif1.gif"/>下载手机版</a>
+                <a href="#" class="download"><img src="images/code1.png"/></a>
+            </li>
+            <li class="language">
+                <a href="#" style="background-image:url('images/zh.png')";>简体中文</a>
+                <ul class="clearFix language-content">
+                    <li><a href="#" style="background-image:url('images/japan.png')";>日本语</a></li>
+                    <li><a href="#" style="background-image:url('images/taiwan.png')";>繁体中文</a></li>
+                    <li><a href="#" style="background-image:url('images/zh.png')";>简体中文</a></li>
+                    <li><a href="#" style="background-image:url('images/us.png')";>English</a></li>
+                </ul>
+            </li>
+            <li><a href="#">注册</a></li>
+            <li><a href="#">登录</a></li>
+            <li><a href="#">帮助</a></li>
+        </ul>
+    </div>
+</header>
+
+<!--轮播图-->
+<div class="banner">
+    <a><img src="images/banner02.jpg"><span>小樽夜景</span></a>
+    <a><img src="images/banner03.jpg"><span>湖州南浔</span></a>
+    <a><img src="images/banner04.jpg"><span>台中</span></a>
+    <a><img src="images/banner05.jpg"><span>日式和服风情</span></a>
+    <a><img src="images/banner06.jpg"><span>日式旅馆</span></a>
+    <!--箭头-->
+    <div class="arrow">
+        <span class="arrow-left">&lt;</span>
+        <span class="arrow-right">&gt;</span>
+    </div>
+    <div class="search clearFix">
+        <form action="#" method="get">
+            <input class="txtCity searchClass" type="text" placeholder="城市或目的地" readOnly="true">
+             <div class="city-wrapper">
+                    <ul class="city-tab clearFix">
+                        <li class="city-tab-item active">台湾</li>
+                        <li class="city-tab-item">日本</li>
+                        <li class="city-tab-item">大陆</li>
+                        <li class="city-tab-item">韩国</li>
+                        <li class="city-tab-item">泰国</li>
+                    </ul>
+                    <img class="close" src="images/close.png"/ >
+                    <div class="city-products">
+                        <div class="main selected">
+                            <span>台北</span>
+                            <span>台北</span>
+                            <span>台北</span>
+                            <span>台北</span>
+                            <span>台北</span>
+                            <span>台北</span>
+                            <span>台北</span>
+                            <span>台北</span>
+                            <span>台北</span>
+                            <span>台北</span>
+                            <span>台北</span>
+                            <span>台北</span>
+                            <span>台北</span>
+                            <span>台北</span>
+                            <span>台北</span>
+                            <span>台北</span>
+                            <span>台北</span>
+                            <span>台北</span>
+                            <span>台北</span>
+                            <span>台北</span>
+                            <span>台北</span>
+                            <span>台北</span>
+                            <span>台北</span>
+                            <span>台北</span>
+                        </div>
+                        <div class="main">
+                            <span>东京</span>
+                            <span>东京</span>
+                            <span>东京</span>
+                            <span>东京</span>
+                            <span>东京</span>
+                            <span>东京</span>
+                            <span>东京</span>
+                            <span>东京</span>
+                            <span>东京</span>
+                            <span>东京</span>
+                            <span>东京</span>
+                            <span>东京</span>
+                        </div>
+                        <div class="main">
+                            <span>杭州</span>
+                            <span>杭州</span>
+                            <span>杭州</span>
+                            <span>杭州</span>
+                            <span>杭州</span>
+                            <span>杭州</span>
+                            <span>杭州</span>
+                            <span>杭州</span>
+                            <span>杭州</span>
+                            <span>杭州</span>
+                            <span>杭州</span>
+                            <span>杭州</span>
+                        </div>
+                        <div class="main">
+                            <span>首尔</span>
+                            <span>首尔</span>
+                            <span>首尔</span>
+                            <span>首尔</span>
+                            <span>首尔</span>
+                            <span>首尔</span>
+                            <span>首尔</span>
+                            <span>首尔</span>
+                            <span>首尔</span>
+                            <span>首尔</span>
+                        </div>
+                        <div class="main">
+                            <span>泰国</span>
+                            <span>泰国</span>
+                            <span>泰国</span>
+                            <span>泰国</span>
+                            <span>泰国</span>
+                            <span>泰国</span>
+                            <span>泰国</span>
+                            <span>泰国</span>
+                            <span>泰国</span>
+                            <span>泰国</span>
+                            <span>泰国</span>
+                            <span>泰国</span>
+                            <span>泰国</span>
+                            <span>泰国</span>
+                            <span>泰国</span>
+                            <span>泰国</span>
+                            <span>泰国</span>
+                            <span>泰国</span>
+                            <span>泰国</span>
+                            <span>泰国</span>
+                        </div>
+                    </div>
+                </div>
+            <input class="checkin searchClass " id="checkin" type="text" placeholder="入住日期" readOnly="true">
+            <div id='schedule-box' class="boxshaw"></div>
+            <input class="checkout searchClass" type="text" placeholder="-退房日期" readOnly="true">
+            <select class="guestNum not-arrow searchClass">
+                <option value="">不限</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10+</option>
+            </select>
+            <input class="txtKeyword searchClass" type="search" placeholder="民宿名称、景点、商圈、城市等">
+            <input class="btn searchClass" type="button">
+        </form>
+    </div>
+</div>
+
+<!--产品区块-->
+<div class="zzk_product">
+    <section class="zzk_product_box1">
+        <h3>热门地区</h3>
+        <div class="zzk_product_slide">
+            <ul class="clearFix listbox ">
+                <li ><a href="#">
+                    <img src="images/page1.jpg">
+                    <span>京都府</span>
+                    <p>361家民宿</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="images/page2.jpg">
+                    <span>大阪</span>
+                    <p>361家民宿</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="images/page3.jpg">
+                    <span>台北</span>
+                    <p>361家民宿</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="images/page4.jpg">
+                    <span>垦丁</span>
+                    <p>361家民宿</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="images/page5.jpg">
+                    <span>花莲</span>
+                    <p>361家民宿</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="images/page6.jpg">
+                    <span>东京</span>
+                    <p>361家民宿</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="images/page7.jpg">
+                    <span>京都府</span>
+                    <p>361家民宿</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="images/page8.jpg">
+                    <span>京都府</span>
+                    <p>361家民宿</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="images/page9.jpg">
+                    <span>京都府</span>
+                    <p>361家民宿</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="images/page10.jpg">
+                    <span>京都府</span>
+                    <p>361家民宿</p>
+                </a></li>
+            </ul>
+        </div>
+
+        <span class="slidet-left"></span>
+        <span class="slide-right"></span>
+    </section>
+    <section class="zzk_product_box2">
+        <h3>精品民宿</h3>
+        <div class="zzk_product_slide">
+            <ul class="clearFix listbox">
+                <li><a href="#">
+                    <div class="content">
+                        <div class="line1">
+                            <span>芯圆</span>
+                            <p>¥1132</p>
+                        </div>
+                        <span>★★★★☆9条评论</span>
+                    </div>
+                </a></li>
+                <li><a href="#">
+                    <div class="content">
+                        <div class="line1">
+                            <span>芯圆</span>
+                            <p>¥1132</p>
+                        </div>
+                        <span>★★★★☆9条评论</span>
+                    </div>
+                </a></li>
+                <li><a href="#">
+                    <div class="content">
+                        <div class="line1">
+                            <span>芯圆</span>
+                            <p>¥1132</p>
+                        </div>
+                        <span>★★★★☆9条评论</span>
+                    </div>
+                </a></li>
+                <li><a href="#">
+                    <div class="content">
+                        <div class="line1">
+                            <span>芯圆</span>
+                            <p>¥1132</p>
+                        </div>
+                        <span>★★★★☆9条评论</span>
+                    </div>
+                </a></li>
+                <li><a href="#">
+                    <div class="content">
+                        <div class="line1">
+                            <span>芯圆</span>
+                            <p>¥1132</p>
+                        </div>
+                        <span>★★★★☆9条评论</span>
+                    </div>
+                </a></li>
+                <li><a href="#">
+                    <div class="content">
+                        <div class="line1">
+                            <span>芯圆</span>
+                            <p>¥1132</p>
+                        </div>
+                        <span>★★★★☆9条评论</span>
+                    </div>
+                </a></li>
+                <li><a href="#">
+                    <div class="content">
+                        <div class="line1">
+                            <span>芯圆</span>
+                            <p>¥1132</p>
+                        </div>
+                        <span>★★★★☆9条评论</span>
+                    </div>
+                </a></li>
+                <li><a href="#">
+                    <div class="content">
+                        <div class="line1">
+                            <span>芯圆</span>
+                            <p>¥1132</p>
+                        </div>
+                        <span>★★★★☆9条评论</span>
+                    </div>
+                </a></li>
+                <li><a href="#">
+                    <div class="content">
+                        <div class="line1">
+                            <span>芯圆</span>
+                            <p>¥1132</p>
+                        </div>
+                        <span>★★★★☆9条评论</span>
+                    </div>
+                </a></li>
+                <li><a href="#">
+                    <div class="content">
+                        <div class="line1">
+                            <span>芯圆</span>
+                            <p>¥1132</p>
+                        </div>
+                        <span>★★★★☆9条评论</span>
+                    </div>
+                </a></li>
+            </ul>
+        </div>
+        <span class="slidet-left"></span>
+        <span class="slide-right"></span>
+    </section>
+    <section class="zzk_product_box3">
+        <h3>攻略故事</h3>
+        <div class="zzk_product_slide">
+            <ul class="clearFix listbox">
+                <li><a href="#">
+                    <img src="images/story1.jpg">
+                    <p>想要最in的日本之旅？戳这里保准不后悔</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="images/story2.jpg">
+                    <p>往返桃园机场捷运2月份终于开通，10个超实用攻略快点收藏起来吧~</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="images/story3.jpg">
+                    <p>原来东京周边还有这么多好地方，偷一天，深度游！</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="images/story4.jpg">
+                    <p>台湾旅行回来，你的伴手礼买对了吗？</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="images/story5.png">
+                    <p>当被问到东京亲子游去哪玩时，千万别说你只知道迪士尼</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="images/story6.jpg">
+                    <p>与闹市失联24h，去中国版枫丹白露做个艺术汪</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="images/story6.jpg">
+                    <p>与闹市失联24h，去中国版枫丹白露做个艺术汪</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="images/story6.jpg">
+                    <p>与闹市失联24h，去中国版枫丹白露做个艺术汪</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="images/story6.jpg">
+                    <p>与闹市失联24h，去中国版枫丹白露做个艺术汪</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="images/story6.jpg">
+                    <p>与闹市失联24h，去中国版枫丹白露做个艺术汪</p>
+                </a></li>
+            </ul>
+        </div>
+        <span class="slidet-left"></span>
+        <span class="slide-right"></span>
+    </section>
+    <section class="zzk_product_box4">
+        <h3>人气民宿</h3>
+        <div class="zzk_product_slide">
+            <ul class="clearFix listbox">
+                <li><a href="#">
+                    <div class="content">
+                        <div class="line1">
+                            <span>芯圆</span>
+                            <p>¥1132</p>
+                        </div>
+                        <span>★★★★☆9条评论</span>
+                    </div>
+                </a></li>
+                <li><a href="#">
+                    <div class="content">
+                        <div class="line1">
+                            <span>芯圆</span>
+                            <p>¥1132</p>
+                        </div>
+                        <span>★★★★☆9条评论</span>
+                    </div>
+                </a></li>
+                <li><a href="#">
+                    <div class="content">
+                        <div class="line1">
+                            <span>芯圆</span>
+                            <p>¥1132</p>
+                        </div>
+                        <span>★★★★☆9条评论</span>
+                    </div>
+                </a></li>
+                <li><a href="#">
+                    <div class="content">
+                        <div class="line1">
+                            <span>芯圆</span>
+                            <p>¥1132</p>
+                        </div>
+                        <span>★★★★☆9条评论</span>
+                    </div>
+                </a></li>
+                <li><a href="#">
+                    <div class="content">
+                        <div class="line1">
+                            <span>芯圆</span>
+                            <p>¥1132</p>
+                        </div>
+                        <span>★★★★☆9条评论</span>
+                    </div>
+                </a></li>
+                <li><a href="#">
+                    <div class="content">
+                        <div class="line1">
+                            <span>芯圆</span>
+                            <p>¥1132</p>
+                        </div>
+                        <span>★★★★☆9条评论</span>
+                    </div>
+                </a></li>
+                <li><a href="#">
+                    <div class="content">
+                        <div class="line1">
+                            <span>芯圆</span>
+                            <p>¥1132</p>
+                        </div>
+                        <span>★★★★☆9条评论</span>
+                    </div>
+                </a></li>
+                <li><a href="#">
+                    <div class="content">
+                        <div class="line1">
+                            <span>芯圆</span>
+                            <p>¥1132</p>
+                        </div>
+                        <span>★★★★☆9条评论</span>
+                    </div>
+                </a></li>
+                <li><a href="#">
+                    <div class="content">
+                        <div class="line1">
+                            <span>芯圆</span>
+                            <p>¥1132</p>
+                        </div>
+                        <span>★★★★☆9条评论</span>
+                    </div>
+                </a></li>
+                <li><a href="#">
+                    <div class="content">
+                        <div class="line1">
+                            <span>芯圆</span>
+                            <p>¥1132</p>
+                        </div>
+                        <span>★★★★☆9条评论</span>
+                    </div>
+                </a></li>
+            </ul>
+        </div>
+        <span class="slidet-left"></span>
+        <span class="slide-right"></span>
+    </section>
+</div>
+<!--选择自在客-->
+<div class="choose">
+    <div class="num">
+            <i>696,261</i>&nbsp&nbsp<span>位客人与您共同选择自在客</span>
+    </div>
+    <ul class="clearFix listbox">
+        <li>
+            <img src="images/choose1.png">
+            <p class="choose-title">便捷服务</p>
+            <p class="choose-content">7×12小时客服保障热线<br/>多种渠道快捷支付</p>
+        </li>
+        <li>
+            <img src="images/choose2.png">
+            <p class="choose-title">更有保障</p>
+            <p class="choose-content">在线快速支付<br/>保障民宿保留房间</p>
+        </li>
+        <li>
+            <img src="images/choose3.png">
+            <p class="choose-title">深度体验</p>
+            <p class="choose-content">品尝特色早餐<br/>听老板讲述民宿背后的故事</p>
+        </li>
+    </ul>
+</div>
+<!--我的信息-->
+<footer>
+    <div class="content1 clearFix">
+        <dl>
+            <dt><a href="#">关于我们</a></dt>
+            <dd><a href="#">联系自在客</a></dd>
+            <dd><a href="#">联系我们</a></dd>
+            <dd><a href="#">加入我们</a></dd>
+            <dd><a href="#">媒体渠道</a></dd>
+            <dd><a href="#">退款政策</a></dd>
+            <dd><a href="#">服务条款</a></dd>
+            <dd><a href="#">网站地图</a></dd>
+        </dl>
+        <dl>
+            <dt><a href="#">关注我们</a></dt>
+            <dd><a href="#">新浪微博</a></dd>
+            <dd><a href="#">豆瓣小站</a></dd>
+            <dd><a href="#">民宿</a></dd>
+            <dd><a href="#">帮助中心</a></dd>
+            <dd><a href="#">故事</a></dd>
+            <dd><a href="#">用户反馈</a></dd>
+            <dd><a href="#">富士山莊</a></dd>
+        </dl>
+        <dl>
+            <dt><a href="#">在线客服</a></dt>
+            <dd><a href="#">4008-886-232 (中国)</a></dd>
+            <dd><a href="#">(+886) 070-1081-9688 (台湾)</a></dd>
+            <dd><a href="#">(+81) 050-3707-8007 (对应日本商务)</a></dd>
+            <dd><a href="#">周一至周日  08:00~21:00</a></dd>
+            <dd><a href="#">询问／投诉／商业合作: contact@zizaike.com</a></dd>
+            <dd><a href="#">台湾QQ群1: 加入QQ群 (已满)</a></dd>
+            <dd><a href="#">台湾QQ群2: 加入QQ群</a></dd>
+        </dl>
+        <div class="code">
+            <img src="images/code.png">
+            <p>加我好友：汪琪琪</p>
+        </div>
+    </div>
+    <div class="content2">
+        <p>合作伙伴</p>
+        <div class="clearFix">
+            <a><img src="images/partner1.png"/></a>
+            <a><img src="images/partner1.png"/></a>
+            <a><img src="images/partner1.png"/></a>
+            <a><img src="images/partner1.png"/></a>
+            <a><img src="images/partner1.png"/></a>
+            <a><img src="images/partner1.png"/></a>
+            <a><img src="images/partner1.png"/></a>
+            <a><img src="images/partner1.png"/></a>
+            <a><img src="images/partner1.png"/></a>
+        </div>
+    </div>
+    <div class="content3">
+        <p>Copyright © 2011-2019 zizaike.com copyright</p>
+        <p>民宿中介经营许可证: 自在客 健云网络信息技术 観光庁長官（０１）第Ｓ００２２号</p>
+        <a>沪ICP备11029422&nbsp&nbsp<img src="images/transparent.png"/>&nbsp&nbsp沪公网安备 31011502005782号</a>
+    </div>
+</footer>
+   <div class="fixed">
+       <a class="left">
+           <p>下载APP</p>
+           <p>享优惠</p>
+       </a>
+       <div class="right">
+           <ul>
+               <li class="back" style="background-image:url('images/fixed1.png')";>
+                   <a href="#back"></a>
+               </li>
+               <li class="wechat" style="background-image:url('images/fixed2.png')";>
+                   <img src="images/code.png"/>
+               </li>
+               <li class="opinion" style="background-image:url('images/fixed3.png')";>
+                   <a title="用户反馈"></a>
+               </li>
+               <li class="contact" style="background-image:url('images/fixed4.png')"; >
+                   <div style="background-image:url('images/message.png')";>
+                       <h3>快把我收到碗里吧</h3>
+                       <p>学习是一个充实愉悦的过程</p>
+                       <p>前端更贴近用户，这种体验非常美妙</p>
+                       <p>行路有良友，便是捷径</p>
+                       <p>带上我一起看到更大的世界</p>
+                   </div>
+               </li>
+           </ul>
+       </div>
+       <div class="message" >
+           <ul class="clearFix">
+               <li>
+                   <h3>基本信息</h3>
+                   <p>--联系我吧--</p>
+               </li>
+               <li class="basic">
+                   <span><img src="images/message6.png"/>汪琪琪</span>
+                   <span><img src="images/message3.png"/>深圳大学</span>
+                   <span><img src="images/message2.png"/>坐标：海口</span>
+               </li>
+               <li class="basic">
+                   <span><img src="images/message5.png"/>13751142297</span>
+                   <span><img src="images/message1.png"/>280517319@qq.com</span>
+                   <span><img src="images/message4.png"/>应聘前端工程师</span>
+               </li>
+               <li class="code">
+                   <img src="images/code.png"/>
+               </li>
+           </ul>
+           <div class="close">
+               <span>X</span>
+           </div>
+       </div>
+   </div>
+
+
+<script type="text/javascript" src="lib/jquery/jquery.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script src="js/schedule.js"></script>
+<script>
+//    日历1初始化
+    var mySchedule = new Schedule({
+        el: '#schedule-box',
+        //date: '2018-9-20',
+        clickCb: function (y,m,d) {
+            document.querySelector('#checkin').setAttribute("value",y+'-'+m+'-'+d)
+        },
+        nextMonthCb: function (y,m,d) {
+            document.querySelector('#checkin').innerHTML = '日期：'+y+'-'+m+'-'+d
+        },
+        nextYeayCb: function (y,m,d) {
+            document.querySelector('#checkin').innerHTML = '日期：'+y+'-'+m+'-'+d
+        },
+        prevMonthCb: function (y,m,d) {
+            document.querySelector('#checkin').innerHTML = '日期：'+y+'-'+m+'-'+d
+        },
+        prevYearCb: function (y,m,d) {
+            document.querySelector('#checkin').innerHTML = '日期：'+y+'-'+m+'-'+d
+        }
+    });
+
+</script>
+</body>
+</html>
